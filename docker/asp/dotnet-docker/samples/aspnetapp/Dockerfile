@@ -17,3 +17,4 @@ FROM mcr.microsoft.com/dotnet/aspnet:5.0
 WORKDIR /docker/asp/app
 COPY --from=build /app ./
 ENTRYPOINT ["dotnet", "aspnetapp.dll"]
+#ENTRYPOINT ["dotnet", "ApiTest.dll"]

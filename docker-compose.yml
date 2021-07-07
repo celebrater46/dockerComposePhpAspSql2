@@ -27,7 +27,7 @@ services:
     volumes:
       - ./docker/asp/source:/source
     ports:
-      - "5051:5001"
+      - "5051:80"
     network_mode: "sample-network5"
 
   # MySQL
